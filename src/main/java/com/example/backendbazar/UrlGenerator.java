@@ -18,6 +18,6 @@ public class UrlGenerator {
     }
 
     public static String generateFullUrl(String filename){
-        return "http://localhost:8080/api/files/storage/" + filename;
+        return "https://mrskillmob.github.io/kcbazar/api/files/storage/" + filename;
     }
 }
