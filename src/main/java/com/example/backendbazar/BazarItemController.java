@@ -10,7 +10,7 @@ import static java.lang.Integer.parseInt;
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
 
 @Controller
-@CrossOrigin(origins = "https://mrskillmob.github.io/kcbazar")
+@CrossOrigin(origins = "https://mrskillmob.github.io")
 @RequestMapping(path = "/api")
 public class BazarItemController {
 
