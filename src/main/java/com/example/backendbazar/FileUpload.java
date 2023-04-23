@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 import org.springframework.web.multipart.MultipartFile;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+
 @RequestMapping("/api/files")
 public class FileUpload {
     @RequestMapping(value = "/uploadFile", headers = "content-type=multipart/*", method = RequestMethod.POST)
