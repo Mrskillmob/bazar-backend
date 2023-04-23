@@ -18,6 +18,6 @@ public class UrlGenerator {
     }
 
     public static String generateFullUrl(String filename){
-        return "https://mrskillmob.github.io/kcbazar/api/files/storage/" + filename;
+        return "https://bazar-backend-production.up.railway.app/api/files/storage/" + filename;
     }
 }
